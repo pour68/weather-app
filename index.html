@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <title> weather app </title>
+</head>
+
+<body>
+
+    <div class="weather" id="weather">
+        <div class="weather__overlay">
+            <header class="weather__header">
+                <input type="text" class="weather__search" id="search" placeholder="City..." />
+                <i class="ri-search-line search__icon"></i>
+            </header>
+
+            <div class="weather__content">
+                <span class="weather__city" id="city"></span>
+                <span class="weather__current" id="current"></span>
+
+                <div class="weather__tempratures">
+                    <p>Min <br /> <span id="min"></span></p>
+                    <p>Max <br /> <span id="max"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
